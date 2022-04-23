@@ -1,1 +1,2 @@
-https://www.youtube.com/c/JennyslecturesCSITNETJRF/playlists
+- https://www.youtube.com/c/JennyslecturesCSITNETJRF/playlists
+- https://www.youtube.com/c/BroCoders/playlists
