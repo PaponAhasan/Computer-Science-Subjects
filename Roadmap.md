@@ -1,2 +1,5 @@
 - https://www.youtube.com/c/JennyslecturesCSITNETJRF/playlists
 - https://www.youtube.com/c/BroCoders/playlists
+- https://www.geeksforgeeks.org/must-do-coding-questions-for-product-based-companies/?ref=ghm
+- https://practice.geeksforgeeks.org/topic-tags/
+- https://practice.geeksforgeeks.org/company-tags
