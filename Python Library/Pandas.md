@@ -7,4 +7,6 @@ Is there a correlation between two or more columns?
 - What is average value?
 - Max value?
 - Min value?
+
+Pandas are also able to delete rows that are not relevant, or contains wrong values, like empty or NULL values. This is called cleaning the data.
 ```
