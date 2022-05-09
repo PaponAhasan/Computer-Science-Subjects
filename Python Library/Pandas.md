@@ -13,7 +13,7 @@ cleaning the data.
 ```
 #### Installation of Pandas
 ```
-C:\Users\Your Name>pip install pandas
+C:\Users\Your Name> pip install pandas
 
 Once Pandas is installed, import it in your applications by adding the import keyword: import pandas
 ```
