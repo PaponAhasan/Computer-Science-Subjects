@@ -11,3 +11,8 @@ Is there a correlation between two or more columns?
 Pandas are also able to delete rows that are not relevant, or contains wrong values, like empty or NULL values. This is called 
 cleaning the data.
 ```
+#### Installation of Pandas
+```
+pip install pandas
+Once Pandas is installed, import it in your applications by adding the import keyword: import pandas
+```
