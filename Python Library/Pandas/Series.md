@@ -10,9 +10,13 @@ myvar = pd.Series(a)
 
 print(myvar)
 ```
+<details> <summary> OUTPUT </summary>
+ 
 ```
 0    1
 1    7
 2    2
 dtype: int64
 ```
+</details>
+
