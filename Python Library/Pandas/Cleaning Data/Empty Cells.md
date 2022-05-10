@@ -21,7 +21,20 @@ print(new_df.to_string())
 
 # These rows had cells with empty values.
 ```
+```
+Note: By default, the dropna() method returns a new DataFrame, and will not change the original.
+```
+```py
+# If you want to change the original DataFrame, use the inplace = True argument:
 
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df.dropna(inplace = True)
+
+print(df.to_string())
+```
 ### Replace Values
 
 - #### Replace Only For Specified Columns
