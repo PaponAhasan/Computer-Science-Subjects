@@ -53,6 +53,9 @@ df = pd.DataFrame(data)
 
 print(df) 
 ```
+<details> <summary> output </summary>
+<br> 
+  
 ```
    Duration  Pulse  Maxpulse  Calories
 0        60    110       130     409.1
@@ -62,3 +65,4 @@ print(df)
 4        45    117       148     406.0
 5        60    102       127     300.5
 ```
+</details>
