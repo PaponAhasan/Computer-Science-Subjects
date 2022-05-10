@@ -25,6 +25,7 @@ dtype: int64
 7
 ```
 </details>
+
 ##
 ```py
 import pandas as pd
@@ -45,6 +46,7 @@ day3    390
 dtype: int64
 ```
 </details>
+
 ##
 ```py
 import pandas as pd
@@ -64,6 +66,7 @@ day2    380
 dtype: int64
 ```
 </details>
+
 ##
 #### Create Labels (With the index argument)
 ```py
