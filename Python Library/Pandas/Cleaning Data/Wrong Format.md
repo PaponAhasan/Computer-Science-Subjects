@@ -14,18 +14,6 @@ Cells with data of wrong format can make it difficult, or even impossible, to an
   
   wrong format. Check out row 22 and 26, the 'Date' column 
 ```
-### Removing Rows
-```py
-import pandas as pd
-
-df = pd.read_csv('data.csv')
-
-df['Date'] = pd.to_datetime(df['Date'])
-
-df.dropna(subset=['Date'], inplace = True)
-
-print(df.to_string())
-```
 
 ### Convert all cells same format
 ```py
@@ -46,4 +34,16 @@ print(df.to_string())
   
   The result, the date in row 26 was fixed, but the empty date in row 22 got a NaT (Not a Time) value( empty value. )
   One way to deal with empty values is simply removing the entire row.
+```
+### Removing Rows
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df['Date'] = pd.to_datetime(df['Date'])
+
+df.dropna(subset=['Date'], inplace = True)
+
+print(df.to_string())
 ```
