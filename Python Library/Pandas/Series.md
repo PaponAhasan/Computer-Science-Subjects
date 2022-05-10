@@ -11,7 +11,7 @@ myvar = pd.Series(a)
 print(myvar)
 ```
 <details> <summary> output </summary>
-  
+<br> 
 ```
 0    1
 1    7
