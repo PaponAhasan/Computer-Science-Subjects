@@ -27,7 +27,7 @@ Bad data could be:
   27        60  '2020/12/27'     92       118     241.0
   28        60  '2020/12/28'    103       132       NaN
 ```
-```
+```py
 Empty cells - "Date" in row 22, and "Calories" in row 18
 Wrong format - "Date" in row 26
 Wrong data - "Duration" in row 7
