@@ -16,6 +16,7 @@ df.loc[7,'Duration'] = 45
 
 print(df.to_string())
 ```
+##
 ```
 To replace wrong data for larger data sets you can create some rules
 ```
@@ -31,7 +32,7 @@ for x in df.index:
 print(df.to_string())
 ```
 --
-### Delete rows where "Duration" is higher than 120:
+## Delete rows where "Duration" is higher than 120:
 ```py
 import pandas as pd
 
