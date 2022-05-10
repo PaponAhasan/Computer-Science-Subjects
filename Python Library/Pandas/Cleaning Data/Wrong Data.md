@@ -11,9 +11,13 @@ import pandas as pd
 
 df = pd.read_csv('data.csv')
 
+# Set "Duration" = 45 in row 7
 df.loc[7,'Duration'] = 45
 
 print(df.to_string())
+```
+```
+To replace wrong data for larger data sets you can create some rules
 ```
 ```py
 import pandas as pd
@@ -26,6 +30,8 @@ for x in df.index:
 
 print(df.to_string())
 ```
+--
+### Delete rows where "Duration" is higher than 120:
 ```py
 import pandas as pd
 
