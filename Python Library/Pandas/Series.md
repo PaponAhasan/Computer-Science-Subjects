@@ -27,6 +27,7 @@ dtype: int64
 </details>
 
 ##
+### Key/Value Objects
 ```py
 import pandas as pd
 
@@ -48,7 +49,6 @@ dtype: int64
 </details>
 
 ##
-### Key/Value Objects
 ```py
 import pandas as pd
 
