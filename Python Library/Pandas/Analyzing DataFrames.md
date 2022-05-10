@@ -34,6 +34,7 @@ print(df.info())
 8        30    109       133     195.1
 9        60     98       124     269.0
 --
+  
      Duration  Pulse  Maxpulse  Calories
 0        60    110       130     409.1
 1        60    117       145     479.0
@@ -42,6 +43,7 @@ print(df.info())
 4        45    117       148     406.0
 --
   
+  
      Duration  Pulse  Maxpulse  Calories
 164        60    105       140     290.8
 165        60    110       145     300.4
@@ -49,6 +51,7 @@ print(df.info())
 167        75    120       150     320.4
 168        75    125       150     330.4
 --
+  
 
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 169 entries, 0 to 168
