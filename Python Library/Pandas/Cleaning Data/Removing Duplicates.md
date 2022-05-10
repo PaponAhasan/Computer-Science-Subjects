@@ -8,6 +8,9 @@
   
   we can assume that row 11 and 12 are duplicates.
 ```
+```
+Returns True for every row that is a duplicate, othwerwise False:
+```
 ```py
 import pandas as pd
 
@@ -15,6 +18,15 @@ df = pd.read_csv('data.csv')
 
 print(df.duplicated())
 ```
+```
+9     False
+10    False
+11    False
+12     True
+13    False
+14    False
+```
+##
 ```py
 import pandas as pd
 
