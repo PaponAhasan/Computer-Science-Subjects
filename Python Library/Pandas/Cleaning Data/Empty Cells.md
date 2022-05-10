@@ -36,7 +36,70 @@ df.dropna(inplace = True)
 print(df.to_string())
 ```
 ### Replace Values
+```
+Another way of dealing with empty cells is to insert a new value instead.
+```
+```py
+import pandas as pd
 
+df = pd.read_csv('data.csv')
+
+df.fillna(130, inplace = True)
+
+print(df.to_string())
+
+# Notice in the result: empty cells got the value 130 (in row 18, 22 and 28).
+```
 - #### Replace Only For Specified Columns
+```py
+import pandas as pd
 
+df = pd.read_csv('data.csv')
+
+df["Calories"].fillna(130, inplace = True)
+
+print(df.to_string())
+
+# This operation inserts 130 in empty cells in the "Calories" column (row 18 and 28).)
+```
 - #### Replace Using Mean, Median, or Mode
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+x = df["Calories"].mean()
+
+df["Calories"].fillna(x, inplace = True)
+
+print(df.to_string())
+
+#As you can see in row 18 and 28, the empty values from "Calories" was replaced with the mean: 304.68
+```
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+x = df["Calories"].median()
+
+df["Calories"].fillna(x, inplace = True)
+
+print(df.to_string())
+
+#As you can see in row 18 and 28, the empty values from "Calories" was replaced with the median: 291.2
+
+```
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+x = df["Calories"].mode()[0]
+
+df["Calories"].fillna(x, inplace = True)
+
+print(df.to_string())
+
+#As you can see in row 18 and 28, the empty value from "Calories" was replaced with the mode: 300.0
+```
