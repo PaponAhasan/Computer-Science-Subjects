@@ -36,6 +36,11 @@ calories = {"day1": 420, "day2": 380, "day3": 390}
 myvar = pd.Series(calories)
 
 print(myvar)
+
+#
+myvar = pd.Series(calories, index = ["day1", "day2"])
+
+print(myvar)
 ```
 <details> <summary> output </summary>
 <br> 
@@ -45,23 +50,7 @@ day1    420
 day2    380
 day3    390
 dtype: int64
-```
-</details>
-
-##
-```py
-import pandas as pd
-
-calories = {"day1": 420, "day2": 380, "day3": 390}
-
-myvar = pd.Series(calories, index = ["day1", "day2"])
-
-print(myvar)
-```
-<details> <summary> output </summary>
-<br> 
-  
-```
+--
 day1    420
 day2    380
 dtype: int64
