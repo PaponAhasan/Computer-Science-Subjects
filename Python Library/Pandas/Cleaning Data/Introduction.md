@@ -10,7 +10,7 @@ Bad data could be:
 - Duplicates
 ```
 ### Data Set
-```
+```py
       Duration          Date  Pulse  Maxpulse  Calories
   6         60  '2020/12/07'    110       136     374.0
   7        450  '2020/12/08'    104       134     253.3
