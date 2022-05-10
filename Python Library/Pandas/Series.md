@@ -37,7 +37,7 @@ myvar = pd.Series(calories)
 
 print(myvar)
 
-#
+# only data from "day1" and "day2":
 myvar = pd.Series(calories, index = ["day1", "day2"])
 
 print(myvar)
