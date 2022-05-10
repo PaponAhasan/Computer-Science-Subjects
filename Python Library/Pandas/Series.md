@@ -10,3 +10,9 @@ myvar = pd.Series(a)
 
 print(myvar)
 ```
+```
+0    1
+1    7
+2    2
+dtype: int64
+```
