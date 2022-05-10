@@ -2,6 +2,6 @@
 
 ### Replace Values
 
-- Replace Only For Specified Columns
+- #### Replace Only For Specified Columns
 
-- Replace Using Mean, Median, or Mode
+- #### Replace Using Mean, Median, or Mode
