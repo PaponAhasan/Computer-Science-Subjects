@@ -32,7 +32,10 @@ for x in df.index:
 print(df.to_string())
 ```
 
-## Delete rows where "Duration" is higher than 120:
+##
+```
+Delete rows where "Duration" is higher than 120
+```
 ```py
 import pandas as pd
 
