@@ -74,7 +74,9 @@ df["Calories"].fillna(x, inplace = True)
 
 print(df.to_string())
 
-#As you can see in row 18 and 28, the empty values from "Calories" was replaced with the mean: 304.68
+# As you can see in row 18 and 28, the empty values from "Calories" was replaced with the mean: 304.68
+
+N.T : Mean = the average value (the sum of all values divided by number of values).
 ```
 ```py
 import pandas as pd
@@ -89,6 +91,7 @@ print(df.to_string())
 
 #As you can see in row 18 and 28, the empty values from "Calories" was replaced with the median: 291.2
 
+N.T : Median = the value in the middle, after you have sorted all values ascending.
 ```
 ```py
 import pandas as pd
@@ -102,4 +105,6 @@ df["Calories"].fillna(x, inplace = True)
 print(df.to_string())
 
 #As you can see in row 18 and 28, the empty value from "Calories" was replaced with the mode: 300.0
+
+N.T : Mode = the value that appears most frequently.
 ```
