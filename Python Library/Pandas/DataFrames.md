@@ -29,11 +29,11 @@ print(df.loc[[0, 1]])
   0       420        50
   1       380        40
   2       390        45
-  
+-- 
   calories    420
   duration     50
   Name: 0, dtype: int64
-  
+--
        calories  duration
   0       420        50
   1       380        40
