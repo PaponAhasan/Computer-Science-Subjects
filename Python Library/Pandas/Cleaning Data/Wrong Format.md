@@ -14,6 +14,9 @@ Cells with data of wrong format can make it difficult, or even impossible, to an
   
   wrong format. Check out row 22 and 26, the 'Date' column 
 ```
+### Removing Rows
+
+### Convert all cells same format
 ```py
 import pandas as pd
 
