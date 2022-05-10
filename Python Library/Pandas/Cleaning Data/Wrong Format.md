@@ -15,6 +15,17 @@ Cells with data of wrong format can make it difficult, or even impossible, to an
   wrong format. Check out row 22 and 26, the 'Date' column 
 ```
 ### Removing Rows
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df['Date'] = pd.to_datetime(df['Date'])
+
+df.dropna(subset=['Date'], inplace = True)
+
+print(df.to_string())
+```
 
 ### Convert all cells same format
 ```py
