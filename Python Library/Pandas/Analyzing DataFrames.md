@@ -65,5 +65,26 @@ Data columns (total 4 columns):
 dtypes: float64(1), int64(3)
 memory usage: 5.4 KB
 None
+ 
+```
+Result Explained :
+```
+The result tells us there are 169 rows and 4 columns:
+  
+    RangeIndex: 169 entries, 0 to 168
+    Data columns (total 4 columns):
+```
+```
+ And the name of each column, with the data type:
+  
+   #   Column    Non-Null Count  Dtype  
+  ---  ------    --------------  -----  
+   0   Duration  169 non-null    int64  
+   1   Pulse     169 non-null    int64  
+   2   Maxpulse  169 non-null    int64  
+   3   Calories  164 non-null    float64
+  
+  - how many Non-Null values there are present in each column. 
+  - it seems like there are 164 of 169 Non-Null values in the "Calories" column.
 ```
 </details>
