@@ -13,13 +13,8 @@ print(df.head())
 # There is also a tail() method for viewing the last rows of the DataFrame.
 # Starting from the bottom.
 print(df.tail()) 
+
+# info(), that gives you more information about the data set
+print(df.info()) 
 ```
 
-```py
-```
-
-```py
-```
-
-```py
-```
