@@ -1,7 +1,7 @@
 ```
 A simple way to store big data sets is to use CSV files. CSV files contains plain text.
 ```
-[CSV dataset](https://www.w3schools.com/python/pandas/data.csv.txt)
+[CSV Dataset](https://www.w3schools.com/python/pandas/data.csv.txt)
 
 ```py
 import pandas as pd
