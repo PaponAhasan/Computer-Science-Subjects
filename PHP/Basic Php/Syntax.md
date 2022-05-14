@@ -75,6 +75,7 @@ echo $y;
 </html>
 
 Output :
+
   Hey
   Hello world!
   5
