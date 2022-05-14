@@ -157,6 +157,7 @@ Output :
 ```
 ```php
 # static Keyword
+
  /* When a function is completed/executed, all of its variables are deleted. 
  However, sometimes we want a local variable NOT to be deleted. We need
  static keyword. Static keyword first declare the variable. */
