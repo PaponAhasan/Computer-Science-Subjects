@@ -183,6 +183,7 @@ Output :
 ###  Echo vs Print
 ```
 Two basic ways to get output: echo and print :
+
 - They are both used to output data to the screen.
 - echo has no return value while print has a return value of 1 
 - echo can take multiple parameters while print can take one argument.
