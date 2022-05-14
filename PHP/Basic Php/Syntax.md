@@ -155,3 +155,24 @@ Output :
  5
  10.5
 ```
+```php
+# static Keyword
+
+<?php
+function myTest() {
+  static $x = 0;
+  echo $x;
+  $x++;
+}
+
+myTest();
+myTest();
+myTest();
+?>
+
+Output :
+--------
+0
+1
+2
+```
