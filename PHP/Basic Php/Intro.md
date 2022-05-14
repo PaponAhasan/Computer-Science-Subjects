@@ -28,3 +28,11 @@ echo "My first PHP script!";
 - PHP can be used to control user-access
 - PHP can encrypt data
 ```
+```
+web host with PHP and MySQL support
+web server
+
+install a web server
+install PHP
+install a database, such as MySQL
+```
