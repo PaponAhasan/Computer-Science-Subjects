@@ -75,8 +75,8 @@ echo $y;
 </html>
 
 Output :
-
-  Hello world!
-  5
-  10.5
+-------
+ Hello world!
+ 5
+ 10.5
 ```
