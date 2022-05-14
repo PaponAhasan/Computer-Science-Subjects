@@ -106,6 +106,8 @@ echo $y; // outputs 15
 ?>
 ```
 ```php
+# The global keyword is used to access a global variable from within a function.
+
 <?php
 $x = 5;
 $y = 10;
