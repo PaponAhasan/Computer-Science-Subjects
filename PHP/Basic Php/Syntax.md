@@ -76,7 +76,6 @@ echo $y;
 
 Output :
 
-  Hey
   Hello world!
   5
   10.5
