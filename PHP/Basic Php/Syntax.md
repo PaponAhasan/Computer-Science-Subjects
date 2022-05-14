@@ -106,6 +106,22 @@ echo $y; // outputs 15
 ?>
 ```
 ```php
+<?php
+$x = 5;
+$y = 10;
+
+function myTest() {
+  $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+  echo $GLOBALS['y']."<br/>";
+} 
+
+myTest();
+echo $y;
+?>
+15
+15
+```
+```php
 # A variable starts with the $ sign
 
 <!DOCTYPE html>
