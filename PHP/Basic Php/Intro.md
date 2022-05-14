@@ -4,6 +4,7 @@ PHP is :
   - A server scripting language, and 
   - A powerful tool for making dynamic and interactive Web pages.
   - PHP is easy to learn and runs efficiently on the server side
+  - PHP are not case-sensitive
 ```
 ```php
 <!DOCTYPE html>
