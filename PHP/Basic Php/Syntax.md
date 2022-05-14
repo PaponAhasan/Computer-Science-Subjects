@@ -91,6 +91,7 @@ echo "<p>Variable x outside function is: $x</p>";
 ```
 ```php
 # The global keyword is used to access a global variable from within a function.
+
 <?php
 $x = 5;
 $y = 10;
@@ -106,6 +107,7 @@ echo $y; // outputs 15
 ```
 ```php
 # A variable starts with the $ sign
+
 <!DOCTYPE html>
 <html>
 <body>
