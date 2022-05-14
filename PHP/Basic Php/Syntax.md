@@ -73,4 +73,10 @@ echo $y;
 
 </body>
 </html>
+
+Output :
+  Hey
+  Hello world!
+  5
+  10.5
 ```
