@@ -180,3 +180,15 @@ Output :
 1
 2
 ```
+###  Echo vs Print
+```
+Two basic ways to get output: echo and print :
+- They are both used to output data to the screen.
+- echo has no return value while print has a return value of 1 
+- echo can take multiple parameters while print can take one argument.
+- echo is marginally faster than print
+- print "<h2>PHP is Fun!</h2>";
+  print "Study PHP at " . $txt2 . "<br>";
+  echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+  echo "Study PHP at " . $txt2 . "<br>";
+```
