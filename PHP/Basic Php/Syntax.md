@@ -587,7 +587,6 @@ familyName("Kai Jim", "1983");
 ?>
 ```
 ```php
-<?php declare(strict_types=1); // strict requirement
 function sum(int $x, int $y) {
   $z = $x + $y;
   return $z;
