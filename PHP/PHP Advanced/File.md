@@ -37,3 +37,24 @@ Some text.
 
 Some more text.
 ```
+### File Handling
+```
+# webdictionary.txt
+
+AJAX = Asynchronous JavaScript and XML
+CSS = Cascading Style Sheets
+HTML = Hyper Text Markup Language
+PHP = PHP Hypertext Preprocessor
+SQL = Structured Query Language
+SVG = Scalable Vector Graphics
+XML = EXtensible Markup Languag
+```
+```php
+<?php
+echo readfile("webdictionary.txt");
+?>
+```
+```
+AJAX = Asynchronous JavaScript and XML CSS = Cascading Style Sheets HTML = Hyper Text Markup Language PHP = PHP Hypertext Preprocessor 
+SQL = Structured Query Language SVG = Scalable Vector Graphics XML = EXtensible Markup Language236
+```
