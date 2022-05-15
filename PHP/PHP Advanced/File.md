@@ -49,7 +49,7 @@ Some more text.
 - x+	Creates a new file for read/write.
 
 w - Erases the contents of the file or creates a new file if it doesn't exist. File pointer starts at the beginning of the file
-a	- The existing data in file is preserved. Creates a new file if the file doesn't exist. File pointer starts at the end of 
+a - The existing data in file is preserved. Creates a new file if the file doesn't exist. File pointer starts at the end of 
     the file.
 ```
 ```
