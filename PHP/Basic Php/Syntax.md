@@ -636,3 +636,72 @@ Volvo
 BMW
 Toyota
 ```
+```php
+# Associative Arrays
+
+<?php
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+or:
+
+$age['Peter'] = "35";
+$age['Ben'] = "37";
+$age['Joe'] = "43";
+
+echo "Peter is " . $age['Peter'] . " years old.";
+
+foreach($age as $x => $x_value) {
+  echo "Key=" . $x . ", Value=" . $x_value;
+  echo "<br>";
+}
+?>
+
+Output:
+-------
+Peter is 35 years old.
+
+Key=Peter, Value=35
+Key=Ben, Value=37
+Key=Joe, Value=43
+```
+```php
+# Multidimensional Arrays
+
+<?php
+$cars = array (
+  array("Volvo",22,18),
+  array("BMW",15,13),
+  array("Saab",5,2),
+  array("Land Rover",17,15)
+);
+
+echo $cars[0][0].": In stock: ".$cars[0][1].", sold: ".$cars[0][2].".<br>";
+
+for ($row = 0; $row < 4; $row++) {
+  echo "<p><b>Row number $row</b></p>";
+  echo "<ul>";
+  for ($col = 0; $col < 3; $col++) {
+    echo "<li>".$cars[$row][$col]."</li>";
+  }
+  echo "</ul>";
+}
+?>
+
+Volvo: In stock: 22, sold: 18.
+
+Row number 0
+
+Volvo
+22
+18
+Row number 1
+
+BMW
+15
+13
+
+.
+.
+.
+.
+```
