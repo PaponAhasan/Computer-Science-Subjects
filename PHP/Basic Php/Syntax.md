@@ -214,3 +214,19 @@ $myCar = new Car("red", "Toyota");
 echo $myCar -> message();
 ?>
 ```
+### PHP String
+```php
+<?php
+echo strlen("Hello world!"); // outputs 12
+
+echo str_word_count("Hello world!"); // outputs 2
+
+echo strrev("Hello world!"); // outputs !dlrow olleH
+
+/*If a match is found, the function returns the character position of the first match. 
+If no match is found, it will return FALSE.*/
+echo strpos("Hello world!", "world"); // outputs 6
+
+echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+?>
+```
