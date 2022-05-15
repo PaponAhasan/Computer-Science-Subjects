@@ -90,6 +90,16 @@ while(!feof($myfile)) {
   echo fgetc($myfile);
 }
 
+# Write to File
+$myfile = fopen("webdictionary.txt", "w") or die("Unable to open file!");
+$txt = "John Doe\n";
+fwrite($myfile, $txt);
+
+# Append Text
+$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+$txt = "Donald Duck\n";
+fwrite($myfile, $txt);
+
 fclose($myfile);
 ?>
 ```
@@ -111,6 +121,11 @@ XML = EXtensible Markup Language
 
 AJAX = Asynchronous JavaScript and XML CSS = Cascading Style Sheets HTML = Hyper Text Markup Language PHP = PHP Hypertext
 Preprocessor SQL = Structured Query Language SVG = Scalable Vector Graphics XML = EXtensible Markup Language
+
+John Doe
+
+John Doe
+Donald Duck
 ```
 ```php
 <?php
