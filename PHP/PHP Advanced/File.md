@@ -59,7 +59,7 @@ fclose() - used to close an open file.
 fgets() - used to read a single line from a file.
 fgetc() -  used to read a single character from a file.
 feof() - checks if the "end-of-file" (EOF) has been reached.
-fwrite() - 
+fwrite() - used to write to a file.
 ```
 ```
 # webdictionary.txt
