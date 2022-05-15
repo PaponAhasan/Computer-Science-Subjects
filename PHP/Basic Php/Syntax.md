@@ -252,3 +252,51 @@ echo(rand()); // 1381167960
 echo(rand(10, 100)); // 97
 ?>
 ```
+### PHP Constants
+```
+Constants are like variables. Once they are defined they cannot be changed or undefined.
+A valid constant name starts with a letter or underscore (no $ sign before the constant name).
+
+To create a constant, use the define() function : define(name, value, case-insensitive)
+
+Parameters:
+----------
+  name: Specifies the name of the constant
+  value: Specifies the value of the constant
+  case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false
+```
+```php
+<?php
+// case-sensitive constant name
+define("GREETING", "Welcome to W3Schools.com!");
+echo GREETING;
+
+// case-insensitive constant name
+define("GREETING", "Welcome to W3Schools.com!", true);
+echo greeting;
+
+define("cars", [
+  "Alfa Romeo",
+  "BMW",
+  "Toyota"
+]);
+echo cars[0];
+?> 
+
+Welcome to W3Schools.com!
+Welcome to W3Schools.com!
+Alfa Romeo
+```
+```php
+# Constants are automatically global and can be used across the entire script.
+
+<?php
+define("GREETING", "Welcome to W3Schools.com!");
+
+function myTest() {
+  echo GREETING;
+}
+ 
+myTest();
+?>
+```
