@@ -597,3 +597,43 @@ echo "7 + 13 = " . sum(7, 13) . "<br>";
 echo "2 + 4 = " . sum(2, 4);
 ?>
 ```
+### PHP Arrays
+```
+An array is a special variable, which can hold more than one value at a time.
+
+There are three types of arrays:
+
+Indexed arrays - Arrays with a numeric index
+Associative arrays - Arrays with named keys
+Multidimensional arrays - Arrays containing one or more arrays
+```
+```php
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+echo count($cars); // 3
+?>
+```
+```php
+# Indexed Arrays
+
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+?>
+
+I like Volvo, BMW and Toyota.
+
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+$arrlength = count($cars);
+
+for($x = 0; $x < $arrlength; $x++) {
+  echo $cars[$x];
+  echo "<br>";
+}
+?>
+
+Volvo
+BMW
+Toyota
+```
