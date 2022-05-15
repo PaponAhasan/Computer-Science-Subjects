@@ -30,3 +30,10 @@ echo '<a href="/default.asp">Home</a> -
 </body>
 </html>
 ```
+```
+Home - HTML Tutorial - CSS Tutorial - JavaScript Tutorial - PHP 7 Tutorial
+Welcome to my home page!
+Some text.
+
+Some more text.
+```
