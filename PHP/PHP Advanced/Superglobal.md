@@ -64,4 +64,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </body>
 </html>
 ```
-![image](https://user-images.githubusercontent.com/59710234/168488970-b956a5df-b2ee-4f12-ab56-d320f97324b6.png)
+![image](https://user-images.githubusercontent.com/59710234/168488994-9a6fd330-f95b-40b9-b2b3-5e8bf2f88520.png)
