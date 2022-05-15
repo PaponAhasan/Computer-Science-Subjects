@@ -1,6 +1,7 @@
 ### include
 ```
-It is possible to insert the content of one PHP file into another PHP file (before the server executes it), with the include or require statement.
+It is possible to insert the content of one PHP file into another PHP file (before the server executes it), with the include or 
+require statement.
 ```
 ```php
 # menu.php
