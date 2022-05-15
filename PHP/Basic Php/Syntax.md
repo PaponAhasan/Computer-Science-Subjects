@@ -747,6 +747,7 @@ Key=Ben, Value=37
 Key=Joe, Value=43
 Key=Peter, Value=35
 */
+
 # descending order the value
 arsort($age);
 /*
@@ -754,6 +755,7 @@ Key=Joe, Value=43
 Key=Ben, Value=37
 Key=Peter, Value=35
 */
+
 # descending order the key
 krsort($age);
 /*
