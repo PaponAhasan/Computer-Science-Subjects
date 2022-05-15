@@ -51,6 +51,15 @@ Some more text.
 w - Erases the contents of the file or creates a new file if it doesn't exist. File pointer starts at the beginning of the file
 a - The existing data in file is preserved. Creates a new file if the file doesn't exist. File pointer starts at the end of 
     the file.
+    
+fopen() - used to open files
+readfile() - open up a file and read its contents.
+fread() - reads from an open file.
+fclose() - used to close an open file.
+fgets() - used to read a single line from a file.
+fgetc() -  used to read a single character from a file.
+feof() - checks if the "end-of-file" (EOF) has been reached.
+fwrite() - 
 ```
 ```
 # webdictionary.txt
@@ -65,10 +74,50 @@ XML = EXtensible Markup Languag
 ```
 ```php
 <?php
+$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
+
+echo fread($myfile,filesize("webdictionary.txt"));
+
+echo fgets($myfile);
+
+// Output one line until end-of-file
+while(!feof($myfile)) {
+  echo fgets($myfile) . "<br>";
+}
+
+// Output one character until end-of-file
+while(!feof($myfile)) {
+  echo fgetc($myfile);
+}
+
+fclose($myfile);
+?>
+```
+```
+Output :
+--------
+AJAX = Asynchronous JavaScript and XML CSS = Cascading Style Sheets HTML = Hyper Text Markup Language PHP = PHP Hypertext 
+Preprocessor SQL = Structured Query Language SVG = Scalable Vector Graphics XML = EXtensible Markup Language236
+
+AJAX = Asynchronous JavaScript and XML
+
+AJAX = Asynchronous JavaScript and XML
+CSS = Cascading Style Sheets
+HTML = Hyper Text Markup Language
+PHP = PHP Hypertext Preprocessor
+SQL = Structured Query Language
+SVG = Scalable Vector Graphics
+XML = EXtensible Markup Language
+
+AJAX = Asynchronous JavaScript and XML CSS = Cascading Style Sheets HTML = Hyper Text Markup Language PHP = PHP Hypertext
+Preprocessor SQL = Structured Query Language SVG = Scalable Vector Graphics XML = EXtensible Markup Language
+```
+```php
+<?php
 echo readfile("webdictionary.txt");
 ?>
 ```
 ```
 AJAX = Asynchronous JavaScript and XML CSS = Cascading Style Sheets HTML = Hyper Text Markup Language PHP = PHP Hypertext 
-Preprocessor SQL = Structured Query Language SVG = Scalable Vector Graphics XML = EXtensible Markup Language236
+Preprocessor SQL = Structured Query Language SVG = Scalable Vector Graphics XML = EXtensible Markup Language
 ```
