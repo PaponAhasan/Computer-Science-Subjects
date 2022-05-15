@@ -96,7 +96,7 @@ $txt = "John Doe\n";
 fwrite($myfile, $txt);
 
 # Append Text
-$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+$myfile = fopen("webdictionary.txt", "a") or die("Unable to open file!");
 $txt = "Donald Duck\n";
 fwrite($myfile, $txt);
 
