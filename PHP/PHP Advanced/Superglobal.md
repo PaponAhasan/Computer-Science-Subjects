@@ -66,3 +66,38 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </html>
 ```
 ![image](https://user-images.githubusercontent.com/59710234/168489005-3ce3441b-23b9-4455-b127-045186e0d5ec.png)
+### PHP $_POST
+```
+used to collect form data after submitting an HTML form with method="post".
+```
+```php
+<html>
+<body>
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // collect value of input field
+  $name = $_POST['fname'];
+  if (empty($name)) {
+    echo "Name is empty";
+  } else {
+    echo $name;
+  }
+}
+?>
+
+</body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/59710234/168489005-3ce3441b-23b9-4455-b127-045186e0d5ec.png)
+### PHP $_GET
+```php
+#  used to collect form data after submitting an HTML form with method="get".
+# $_GET can also collect data sent in the URL.
+
+```
