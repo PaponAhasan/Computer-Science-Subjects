@@ -300,3 +300,114 @@ function myTest() {
 myTest();
 ?>
 ```
+### PHP Operators
+```
+PHP divides the operators in the following groups:
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Increment/Decrement operators
+- Logical operators
+- String operators
+- Array operators
+- Conditional assignment operators
+```
+```php
+# Arithmetic Operators
+
+<?php
+$x = 10;  
+$y = 6;
+
+echo $x + $y; // 16
+echo $x - $y; // 10
+echo $x * $y; // 60
+echo $x / $y; // 1.667
+echo $x % $y; // 4
+echo $x ** $y; // 1000
+?> 
+```
+```php
+# Assignment Operators
+
+$x = 10; // 10
+$x += 100; // 110
+$x -= 30; // 80
+$x *= 2; // 160
+$x /= 5; // 32
+$x %= 2 // 2
+```
+```php
+# Comparison Operators
+
+$x == $y	Returns true if $x is equal to $y
+$x === $y	Returns true if $x is equal to $y, and they are of the same type
+$x != $y	Returns true if $x is not equal to $y
+$x <> $y	Returns true if $x is not equal to $y
+$x !== $y	Returns true if $x is not equal to $y, or they are not of the same type
+$x > $y	Returns true if $x is greater than $y	
+$x < $y	Returns true if $x is less than $y	
+$x >= $y	Returns true if $x is greater than or equal to $y
+$x <= $y	Returns true if $x is less than or equal to $y
+$x <=> $y	Returns an integer less than, equal to, or greater than zero, depending on if $x is less than, equal to, 
+          or greater than $y. Introduced in PHP 7.
+```
+```php
+# Increment / Decrement Operators
+
+$x = 10;  
+# Pre-increment
+echo ++$x; // 11
+# Post-increment
+echo $x++; // 10
+# Pre-decrement
+echo --$x; // 9
+# Post-decrement
+echo $x--; // 10
+```
+```php
+# Logical Operators
+
+<?php
+$x = 100;  
+$y = 50;
+# And
+if ($x == 100 and $y == 50) {
+    echo "Hello world!";
+}
+# Or
+if ($x == 100 or $y == 80) {
+    echo "Hello world!";
+}
+# Xor
+if ($x == 100 xor $y == 80) {
+    echo "Hello world!";
+}
+# And
+if ($x == 100 && $y == 50) {
+    echo "Hello world!";
+}
+# Or
+if ($x == 100 || $y == 80) {
+    echo "Hello world!";
+}
+# Not
+if ($x !== 90) {
+    echo "Hello world!";
+}
+?>
+```
+```php
+# String Operators
+
+<?php
+$txt1 = "Hello";
+$txt2 = " world!";
+# Concatenation
+echo $txt1 . $txt2; // Hello world!
+# Concatenation assignment
+$txt1 .= $txt2;
+echo $txt1; // Hello world!
+?>  
+```
