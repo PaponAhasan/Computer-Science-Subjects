@@ -1,2 +1,2 @@
-https://www.interviewbit.com/php-interview-questions/
-https://www.geeksforgeeks.org/php-tutorials/?ref=ghm
+- https://www.interviewbit.com/php-interview-questions/
+- https://www.geeksforgeeks.org/php-tutorials/?ref=ghm
