@@ -39,6 +39,19 @@ Some more text.
 ```
 ### File Handling
 ```
+- r	Open a file for read only.
+- w	Open a file for write only.
+- a	Open a file for write only
+- x	Creates a new file for write only.
+- r+	Open a file for read/write.
+- w+	Open a file for read/write.
+- a+	Open a file for read/write.
+- x+	Creates a new file for read/write.
+
+w - Erases the contents of the file or creates a new file if it doesn't exist. File pointer starts at the beginning of the file
+a	- The existing data in file is preserved. Creates a new file if the file doesn't exist. File pointer starts at the end of the file.
+```
+```
 # webdictionary.txt
 
 AJAX = Asynchronous JavaScript and XML
