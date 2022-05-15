@@ -44,3 +44,30 @@ echo "The time is " . date("h:i:sa");
 
 The time is 08:58:31am
 ```
+### Create a Date
+```php
+# mktime(hour, minute, second, month, day, year)
+
+<?php
+$d=mktime(11, 14, 54, 8, 12, 2014);
+echo "Created date is " . date("Y-m-d h:i:sa", $d);
+?>
+
+Created date is 2014-08-12 11:14:54am
+```
+```php
+<?php
+$d=strtotime("tomorrow");
+echo date("Y-m-d h:i:sa", $d) . "<br>";
+
+$d=strtotime("next Saturday");
+echo date("Y-m-d h:i:sa", $d) . "<br>";
+
+$d=strtotime("+3 Months");
+echo date("Y-m-d h:i:sa", $d) . "<br>";
+?>
+
+2022-05-16 12:00:00am
+2022-05-21 12:00:00am
+2022-08-15 03:05:25pm
+```
