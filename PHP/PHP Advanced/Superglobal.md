@@ -37,8 +37,9 @@ echo $_SERVER['SCRIPT_NAME'];
 ```php
 # which is used to collect data after submitting an HTML form.
 
-/*A form with an input field and a submit button. When a user submits the data by clicking on "Submit", the form data is sent to the file 
-specified in the action attribute of the <form> tag. Then, we can use the super global variable $_REQUEST to collect the value of the input field:*/
+/*A form with an input field and a submit button. When a user submits the data by clicking on "Submit", the 
+form data is sent to the file specified in the action attribute of the <form> tag. Then, we can use the super 
+global variable $_REQUEST to collect the value of the input field:*/
 
 <!DOCTYPE html>
 <html>
