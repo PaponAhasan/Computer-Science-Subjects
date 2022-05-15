@@ -511,6 +511,12 @@ foreach ($colors as $value) {
   echo "$value <br>";
 }
 ?>
+Output  :
+--------
+red
+green
+blue
+yellow
 ```
 ```php
 # foreach Loop
@@ -522,4 +528,10 @@ foreach($age as $x => $val) {
   echo "$x = $val<br>";
 }
 ?>
+
+Output :
+--------
+Peter = 35
+Ben = 37
+Joe = 43
 ```
