@@ -715,12 +715,50 @@ arsort() - sort associative arrays in descending order, according to the value
 krsort() - sort associative arrays in descending order, according to the key
 ```
 ```php
+# Indexed Arrays
+
 $numbers = array(4, 6, 2, 22, 11);
-
+# ascending order
 sort($numbers); // 2 4 6 11 22
-
+# descending order
 rsort($numbers); // 22 11 6 4 2
 
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 asort($age); 
+```
+```php
+# Associative Arrays
+
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+# ascending order, the value
+asort($age);
+
+/*
+Key=Peter, Value=35
+Key=Ben, Value=37
+Key=Joe, Value=43
+*/
+
+# ascending order the key
+ksort($age);
+/*
+Key=Ben, Value=37
+Key=Joe, Value=43
+Key=Peter, Value=35
+*/
+# descending order the value
+arsort($age);
+/*
+Key=Joe, Value=43
+Key=Ben, Value=37
+Key=Peter, Value=35
+*/
+# descending order the key
+krsort($age);
+/*
+Key=Peter, Value=35
+Key=Joe, Value=43
+Key=Ben, Value=37
+*/
 ```
