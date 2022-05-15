@@ -32,3 +32,12 @@ The output :
 Welcome John
 Your email address is john.doe@example.com
 ```
+
+### GET VS POST
+```
+- GET method is visible to everyone 
+- GET also has limits on the amount of information to send.
+
+- POST method is invisible to others
+- POST has no limits on the amount of information to send.
+```
