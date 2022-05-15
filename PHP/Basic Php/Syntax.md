@@ -427,3 +427,37 @@ $user = "John Doe";
 // if empty($user) = FALSE, set $status = "logged in"
 echo $status = (empty($user)) ? "anonymous" : "logged in";
 ```
+### PHP if...else...elseif Statements
+```php
+<?php
+$t = date("H");
+
+if ($t < "10") {
+  echo "Have a good morning!";
+} elseif ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
+?>
+```
+### PHP switch Statement
+```php
+<?php
+$favcolor = "red";
+
+switch ($favcolor) {
+  case "red":
+    echo "Your favorite color is red!";
+    break;
+  case "blue":
+    echo "Your favorite color is blue!";
+    break;
+  case "green":
+    echo "Your favorite color is green!";
+    break;
+  default:
+    echo "Your favorite color is neither red, blue, nor green!";
+}
+?>
+```
