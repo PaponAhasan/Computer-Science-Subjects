@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
-
+# Style your website
 <style>
 .error {color: #FF0000;}
 </style>
@@ -16,6 +16,7 @@
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
 
+# Validation your website
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST["name"])) {
@@ -75,7 +76,7 @@ function test_input($data) {
 }
 ?>
 
-
+# Style your website
 <h2>PHP Form Validation Example</h2>
 
 <p><span class="error">* required field</span></p>
@@ -108,6 +109,7 @@ function test_input($data) {
   
 </form>
 
+# Show Data your website
 <?php
 echo "<h2>Your Input:</h2>";
 echo $name;
