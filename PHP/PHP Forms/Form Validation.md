@@ -74,3 +74,26 @@ echo $gender;
 </html>
 ```
 ![image](https://user-images.githubusercontent.com/59710234/168637742-ce2ad3dd-e1b3-4643-b1b8-d6c102698bfe.png)
+
+```
+If PHP_SELF is used in your page then a user can enter a slash (/) and then some Cross Site Scripting (XSS) commands to execute.
+```
+```
+Assume we have the following form in a page named "test_form.php":
+```
+```php
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+
+# Now, if a user enters the normal URL in the address bar like "http://www.example.com/test_form.php", the above code will be translated to:
+
+<form method="post" action="test_form.php">
+```
+```php
+# a user enters the following URL in the address bar:
+
+http://www.example.com/test_form.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script%3E
+
+# In this case, the above code will be translated to:
+
+<form method="post" action="test_form.php/"><script>alert('hacked')</script>
+```
