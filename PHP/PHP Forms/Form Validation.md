@@ -112,6 +112,12 @@ http://www.example.com/test_form.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script
 <form method="post" action="test_form.php/&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;">
 ```
 ### PHP From Required Example
+```
+In the following code we have added some new variables: $nameErr, $emailErr, $genderErr, and $websiteErr. These error variables 
+will hold error messages for the required fields. We have also added an if else statement for each $_POST variable. This checks 
+if the $_POST variable is empty (with the PHP empty() function). If it is empty, an error message is stored in the different error
+variables, and if it is not empty, it sends the user input data through the test_input() function:
+```
 ```php
 <!DOCTYPE HTML>  
 <html>
