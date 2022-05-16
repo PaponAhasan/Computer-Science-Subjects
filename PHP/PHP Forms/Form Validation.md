@@ -77,8 +77,6 @@ echo $gender;
 
 ```
 If PHP_SELF is used in your page then a user can enter a slash (/) and then some Cross Site Scripting (XSS) commands to execute.
-```
-```
 Assume we have the following form in a page named "test_form.php":
 ```
 ```php
@@ -97,4 +95,6 @@ http://www.example.com/test_form.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script
 # In this case, the above code will be translated to:
 
 <form method="post" action="test_form.php/"><script>alert('hacked')</script>
+
+# Any JavaScript code can be added inside the <script> tag! A hacker can redirect the user to a file on another server.
 ```
