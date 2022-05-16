@@ -2,7 +2,7 @@
 Proper validation of form data is important to protect your form from hackers and spammers!
 ```
 ```php
-  <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
 - method="post" => When the form is submitted, the form data is sent with method="post".
 
