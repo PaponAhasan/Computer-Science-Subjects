@@ -98,3 +98,13 @@ http://www.example.com/test_form.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script
 
 # Any JavaScript code can be added inside the <script> tag! A hacker can redirect the user to a file on another server.
 ```
+### Avoid $_SERVER["PHP_SELF"] Exploits
+```php
+# Using the htmlspecialchars() function avoided $_SERVER["PHP_SELF"] exploits.
+
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+# The htmlspecialchars() function converts special characters to HTML entities.
+
+<form method="post" action="test_form.php/&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;">
+```
