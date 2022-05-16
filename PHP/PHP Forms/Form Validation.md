@@ -74,7 +74,7 @@ echo $gender;
 </html>
 ```
 ![image](https://user-images.githubusercontent.com/59710234/168637742-ce2ad3dd-e1b3-4643-b1b8-d6c102698bfe.png)
-
+### PHP Form Security
 ```
 If PHP_SELF is used in your page then a user can enter a slash (/) and then some Cross Site Scripting (XSS) commands to execute.
 Assume we have the following form in a page named "test_form.php":
