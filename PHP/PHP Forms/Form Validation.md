@@ -84,7 +84,8 @@ Assume we have the following form in a page named "test_form.php":
 ```php
 <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
 
-# Now, if a user enters the normal URL in the address bar like "http://www.example.com/test_form.php", the above code will be translated to:
+# Now, if a user enters the normal URL in the address bar like "http://www.example.com/test_form.php", the above code will be 
+# translated to:
 
 <form method="post" action="test_form.php">
 ```
