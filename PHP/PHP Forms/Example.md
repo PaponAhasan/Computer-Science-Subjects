@@ -113,7 +113,7 @@ function test_input($data) {
   
 </form>
 
-# Show Data your website
+<!-- Show Data your website -->
 
 <?php
 echo "<h2>Your Input:</h2>";
