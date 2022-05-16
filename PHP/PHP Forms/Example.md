@@ -79,7 +79,7 @@ function test_input($data) {
 }
 ?>
 
-# Style your website
+<!-- Style your website -->
 
 <h2>PHP Form Validation Example</h2>
 
