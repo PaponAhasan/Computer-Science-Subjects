@@ -11,6 +11,7 @@ Proper validation of form data is important to protect your form from hackers an
   
 - htmlspecialchars() =>  htmlspecialchars() function converts special characters to HTML entities. 
 ```
+### PHP Form Validation Example
 ```php
 <!DOCTYPE HTML>  
 <html>
