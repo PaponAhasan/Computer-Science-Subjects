@@ -111,4 +111,5 @@ http://www.example.com/test_form.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script
 
 <form method="post" action="test_form.php/&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;">
 ```
+### Validation Rules
 ![image](https://user-images.githubusercontent.com/59710234/168659354-4f2eae2c-88ba-427f-ad86-1c90f2e62225.png)
