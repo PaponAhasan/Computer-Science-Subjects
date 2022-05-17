@@ -39,6 +39,8 @@ Some more text.
 ```
 ### File Handling
 ```
+PHP has several functions for creating, reading, uploading, and editing files.
+
 - r	Open a file for read only.
 - w	Open a file for write only.
 - a	Open a file for write only
