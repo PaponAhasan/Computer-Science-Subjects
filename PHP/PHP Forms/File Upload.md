@@ -92,6 +92,14 @@ if ($uploadOk == 0) {
 ?>
 ```
 ```
-move_uploaded_file(string $from, string $to): bool
+move_uploaded_file(string $from, string $to): bool ==>
+This function checks to ensure that the file designated by from is a valid upload file.
+If the file is valid, it will be moved to the filename given by to
+
+from
+The filename of the uploaded file.
+
+to
+The destination of the moved file.
 ```
 [PHP Script](https://ideone.com/cCwJZZ)
