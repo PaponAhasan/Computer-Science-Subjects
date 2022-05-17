@@ -59,6 +59,12 @@ pathinfo() ==> function returns information about a file path.
 ### PHP Validation
 ```php
 <?php
+// Check if file doesn't exists
+if (!file_exists($target_dir)) {
+    // Create a new file or direcotry
+    mkdir($target_dir, 0777, true);
+}
+
 // Check if file already exists
 if (file_exists($target_file)) {
   echo "Sorry, file already exists.";
