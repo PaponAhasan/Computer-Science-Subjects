@@ -91,4 +91,7 @@ if ($uploadOk == 0) {
 }
 ?>
 ```
+```
+move_uploaded_file(string $from, string $to): bool
+```
 [PHP Script](https://ideone.com/cCwJZZ)
