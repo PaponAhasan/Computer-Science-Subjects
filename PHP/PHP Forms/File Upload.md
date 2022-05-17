@@ -53,6 +53,6 @@ $_FILES["fileToUpload"]["name"] ==>  $_FILES is an associative array. The origin
 
 pathinfo() ==> function returns information about a file path.
 ```
-[basename()](https://www.w3schools.com/php/func_filesystem_basename.asp)
-[$_FILES](https://www.tutorialspoint.com/php-files#:~:text=The%20global%20predefined%20variable%20%24_,to%20multipart%2Fform%2Ddata.&text=%24_FILES%5B'file'%5D,the%20file%20to%20be%20uploaded.)
-[pathinfo()](https://www.w3schools.com/php/func_filesystem_pathinfo.asp)
+- [basename()](https://www.w3schools.com/php/func_filesystem_basename.asp)
+- [$_FILES](https://www.tutorialspoint.com/php-files#:~:text=The%20global%20predefined%20variable%20%24_,to%20multipart%2Fform%2Ddata.&text=%24_FILES%5B'file'%5D,the%20file%20to%20be%20uploaded.)
+- [pathinfo()](https://www.w3schools.com/php/func_filesystem_pathinfo.asp)
