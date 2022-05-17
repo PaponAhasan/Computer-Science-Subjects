@@ -91,3 +91,4 @@ if ($uploadOk == 0) {
 }
 ?>
 ```
+[PHP Script](https://ideone.com/cCwJZZ)
