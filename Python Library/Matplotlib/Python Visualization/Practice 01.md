@@ -1,6 +1,5 @@
 # Matplotlib (Visualization Lybrary)
 
-
 ```python
 import matplotlib.pyplot as plt # mat plot lib
 import seaborn as sns # sea born
@@ -8,29 +7,19 @@ import pandas as pd
 import numpy as np
 ```
 
-
 ```python
 pwd
 ```
 
-
-
-
     'F:\\EDUCTIONAL\\Semister\\12th Semister\\Data Mining\\Lab'
-
-
-
 
 ```python
 # import data
 df = pd.read_csv('Sample Dataset.csv')
 df
-# Natural Language Processing (nlp)
 ```
 
-
 <div>
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -355,19 +344,13 @@ df
 </div>
 
 
-
-
 ```python
 df.plot()
 ```
-
     
 ![png](output_4_1.png)
-    
-
 
 # Line Graph
-
 
 ```python
 # initializing the data
@@ -392,20 +375,14 @@ plt.show()
 # plt.savefig('Fig.png')
 plt.close()
 ```
-
-
     
 ![png](output_6_0.png)
     
-
-
 # Sub plot (Multiple Plots)
-
 
 ```python
  The subplot() function you can draw multiple plots in one figure
 ```
-
 
 ```python
 # initializing the data
@@ -431,18 +408,14 @@ axes[1].plot(x, y)
 
 plt.show()
 ```
-
-
     
 ![png](output_9_0.png)
     
 
-
 # Scatter Plot
-
+```
 The scatter() function plots one dot for each observation.
-
-
+```
 ```python
 colours = {'A':'orange', 'B':'green', 'C':'blue'}
 
@@ -457,14 +430,9 @@ plt.grid(True)
 
 plt.show()
 ```
-
-
     
 ![png](output_12_0.png)
     
-
-
-
 ```python
 # initializing the data
 x = df['Machine Learning']
@@ -487,11 +455,7 @@ plt.xlabel('Machine Learning')
 plt.show()
 ```
 
-
-    
 ![png](output_13_0.png)
-    
-
 
 # Bar plots
 
@@ -507,52 +471,28 @@ plt.xlabel('species_types')
 plt.ylabel('count')
 plt.show()
 ```
-
-
     
 ![png](output_15_0.png)
     
-
-
-
 ```python
 a
 ```
-
-
-
 
     B    15
     C    15
     A    14
     Name: Section, dtype: int64
 
-
-
-
 ```python
 species_types
 ```
 
-
-
-
     Index(['B', 'C', 'A'], dtype='object')
-
-
-
 
 ```python
 count
 ```
-
-
-
-
     array([15, 15, 14], dtype=int64)
-
-
-
 
 ```python
 # initializing the data
@@ -573,15 +513,10 @@ plt.xlabel('Machine Learning')
  
 plt.show()
 ```
-
-
     
 ![png](output_19_0.png)
     
-
-
 # Box Plot
-
 
 ```python
 length_width = df[['Machine Learning','NLP','AI']] #excluding species column
@@ -592,17 +527,12 @@ plt.title("Sample Dataset analysis")
 plt.show()
 ```
 
-
-    
 ![png](output_21_0.png)
     
-
-
 # Histogram
-
+```
 A histogram is a graph showing frequency distributions.
-
-
+```
 ```python
 # initializing the data
 x = df['AI']
@@ -622,14 +552,9 @@ plt.xlabel('Section')
 plt.show()
 ```
 
-
-    
 ![png](output_24_0.png)
     
-
-
 # Pie Chart
-
 
 ```python
 a= df['Section'].value_counts()
@@ -645,20 +570,18 @@ plt.xlabel('Section')
 plt.axis('equal')
 plt.show()
 ```
-
-
-    
+ 
 ![png](output_26_0.png)
     
-
+```
 explode: Moving the wedges of the plot
 autopct: Label the wedge with their numerical value.
 color: Attribute is used to provide color to the wedges.
 shadow: Used to create shadow of wedge.
+```
 # Seaborn (Visualization Lybrary)
 
 # Line Graph
-
 
 ```python
 sns.set_style('darkgrid')
@@ -667,41 +590,25 @@ sns.set_style('darkgrid')
 sns.lineplot(data=df.drop(['Section'], axis=1))
 plt.show()
 ```
-
-
     
 ![png](output_30_0.png)
     
-
-
-
 ```python
 sns.lineplot(x='NLP', y='AI', data=df)
 plt.show()
-```
-
-
-    
+```   
 ![png](output_31_0.png)
     
-
-
 # Scatter Plot
-
 
 ```python
 sns.scatterplot(x='NLP', y='AI', data=df, hue='Section')
 plt.show()
 ```
-
-
     
 ![png](output_33_0.png)
     
-
-
 # Bar Plot
-
 
 ```python
 a = df['Section'].value_counts()
@@ -711,12 +618,8 @@ sns.barplot(x = species, y=count)
 plt.show()
 ```
 
-
-    
 ![png](output_35_0.png)
     
-
-
 
 ```python
 sns.barplot(x='AI',y='NLP', data=df, hue='Section')
@@ -724,14 +627,9 @@ sns.barplot(x='AI',y='NLP', data=df, hue='Section')
 plt.show()
 ```
 
-
-    
 ![png](output_36_0.png)
     
-
-
 # Histogram
-
 
 ```python
 sns.histplot(x='AI', data=df, kde=True, hue='Section')
@@ -739,8 +637,5 @@ sns.histplot(x='AI', data=df, kde=True, hue='Section')
 plt.show()
 ```
 
-
-    
 ![png](output_38_0.png)
     
-
