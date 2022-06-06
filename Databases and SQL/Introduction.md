@@ -13,3 +13,6 @@ Types of DBMS :
 Relational Database Commonly used : MySQL, PostgreSQL, MSSQL, Oracle etc.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/172157710-1274f664-9507-4dc4-b45d-ec7a2e363fc1.png)
+
+
+![image](https://user-images.githubusercontent.com/59710234/172159064-7a092ad7-104a-4801-9695-9eebd9d9a0fc.png)
