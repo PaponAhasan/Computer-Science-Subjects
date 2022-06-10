@@ -1,0 +1,3 @@
+- https://www.interviewbit.com/php-interview-questions/
+- https://www.geeksforgeeks.org/php-tutorials/?ref=ghm
+- https://www.youtube.com/watch?v=a_qREkJ78f4&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&ab_channel=YahooBaba
