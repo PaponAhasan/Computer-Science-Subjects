@@ -6,3 +6,4 @@
 - https://www.youtube.com/c/BackToBackSWE
 - https://www.youtube.com/c/GeeksforGeeksVideos/playlists
 - https://www.youtube.com/c/SimplilearnOfficial/playlists
+- https://www.gatevidyalay.com/
